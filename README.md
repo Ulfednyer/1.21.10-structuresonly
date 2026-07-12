@@ -65,7 +65,7 @@ You can customize the gameplay parameters using the config file generated at `co
 
 ## Inspiration & Credits
 
-- Inspired by the Minecraft community's "Void with Structures Only" survival challenges (popularized by BastiGHG and other creators).
+- Inspired by the Minecraft community's "Void with Structures Only" survival challenges (popularized by BastiGHG).
 - Built using the [Fabric Project Template](https://github.com/FabricMC/fabric-example-mod).
 - Special thanks to the SpongePowered Mixin framework.
 
