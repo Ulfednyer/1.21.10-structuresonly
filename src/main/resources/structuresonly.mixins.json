@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "com.chaosforge.structuresonly.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "structuresonly-refmap.json",
+	"mixins": [
+		"ExampleMixin",
+		"NoiseBasedChunkGeneratorMixin",
+		"StructureStartMixin",
+		"ProtoChunkMixin",
+		"WorldGenRegionMixin",
+		"RandomizableContainerBlockEntityMixin",
+		"BlockEntityMixin",
+		"ThrownTridentMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

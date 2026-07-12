@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "structuresonly",
+	"version": "${version}",
+	"name": "Structures Only",
+	"description": "Empty void world terrain generation containing only naturally generated structures with customizable settings.",
+	"authors": [
+		"ChaosForge"
+	],
+	"contact": {
+		"homepage": "https://github.com/ChaosForge/StructuresOnly",
+		"sources": "https://github.com/ChaosForge/StructuresOnly"
+	},
+	"license": "MIT",
+	"icon": "assets/structuresonly/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chaosforge.structuresonly.StructuresOnly"
+		],
+		"client": [
+			"com.chaosforge.structuresonly.client.StructuresOnlyClient"
+		]
+	},
+	"mixins": [
+		"structuresonly.mixins.json",
+		{
+			"config": "structuresonly.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
